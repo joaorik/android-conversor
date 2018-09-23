@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.leocadio.joao.conversor.MainActivity">
+
+    <!--<item-->
+        <!--android:id="@+id/action_home"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_home"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_temp"
+        android:orderInCategory="100"
+        android:title="@string/action_temp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_med"
+        android:orderInCategory="100"
+        android:title="@string/action_med"
+        app:showAsAction="never" />
+
+</menu>

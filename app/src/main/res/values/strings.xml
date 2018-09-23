@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Conversor</string>
+
+    <!-- Menu -->
+    <string name="action_home">Home</string>
+    <string name="action_temp">Temperatura</string>
+    <string name="action_med">Medidas</string>
+
+    <!-- Medidas -->
+    <string name="cm">Centímetros</string>
+    <string name="pol">Polegadas</string>
+
+    <!-- Temperaturas -->
+    <string name="c_">°C</string>
+    <string name="f_">°F</string>
+    <string name="cel">Celsius</string>
+    <string name="far">Fahrenheit</string>
+    <string name="title_activity_medidas">Medidas</string>
+    <string name="title_activity_temperaturas">Temperaturas</string>
+
+    <!-- Home -->
+    <string name="titulo_1">ATIVIDADE EXTRA-CLASSE</string>
+    <string name="titulo_2">Selecione no menu acima a opção desejada.</string>
+    <string name="titulo_medidas">Conversor de Centímetros para Polegadas e Vice-Versa</string>
+    <string name="titulo_opcao">Converter Medidas ou Temperaturas</string>
+
+</resources>
