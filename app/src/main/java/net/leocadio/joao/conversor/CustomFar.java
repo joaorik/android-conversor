@@ -66,13 +66,13 @@ class CustomFar extends View {
 
         // Draw the half at the end
         // if the progess > 0 , fill the small half cicle at the left
-        if (progress > 0 && progress <= 19) {
+        if (progress > 0 && progress <= 66) {
             progressPaint.setStyle(Paint.Style.FILL);
             progressPaint.setColor(getResources().getColor(R.color.frio));
-        } else if (progress >= 20 && progress <= 32) {
+        } else if (progress >= 67 && progress <= 89) {
             progressPaint.setStyle(Paint.Style.FILL);
             progressPaint.setColor(getResources().getColor(R.color.morno));
-        } else if (progress >= 33) {
+        } else if (progress >= 90) {
             progressPaint.setStyle(Paint.Style.FILL);
             progressPaint.setColor(getResources().getColor(R.color.quente));
         }

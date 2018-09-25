@@ -62,7 +62,6 @@ class CustomCelsius extends View {
         widthWithoutPaddding = getWidth() - getPaddingRight();
         barWidth = widthWithoutPaddding - pxBarHeight - pxCirleRadius - (float) (Math.sqrt(Math.pow(pxCirleRadius, 2) - Math.pow(pxBarHeight, 2)));
 
-
         // Draw the half at the end
         // if the progess > 0 , fill the small half cicle at the left
         if (progress > 0 && progress <= 19) {
@@ -138,7 +137,7 @@ class CustomCelsius extends View {
         textPaint.setTextAlign(Paint.Align.CENTER);
         float textHeight = textPaint.descent() - textPaint.ascent();
         float textOffset = (textHeight / 2) - textPaint.descent();
-        canvas.drawText(progress + "%", segment.centerX(), segment.centerY() + textOffset, textPaint);
+        canvas.drawText(progress + "ºC", segment.centerX(), segment.centerY() + textOffset, textPaint);
     }
 
     public void setProgress(int progress) {
